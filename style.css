@@ -1,0 +1,261 @@
+
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.header-btn:hover {
+    color: black;
+    background-color: rgb(255, 255,0, 0.4)
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 0, 0.4);
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(92, 92, 92, 0.6);
+    z-index: 10;
+    position: fixed;
+}
+
+.header-icon {
+    position: relative;
+}
+
+.header-icon p {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 12px;
+    margin: 10px;
+}
+
+.batter {
+    position: absolute;
+    width: 70px;
+    margin: 8px 0 0 137px; 
+}
+
+
+.header-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+}
+
+
+.top-wrapper {
+    opacity: 0.9;
+    padding: 310px 0 310px 0;
+    background-image: url(https://www.hofflawyer.com/wp-content/uploads/sites/9/2019/10/iStock-523831948.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+.member-wrapper {
+    height: 450px;
+    padding: 80px;
+    background: black;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.member-icon {
+    position: relative;
+    float: left;
+}
+
+.woman {
+    width: 100px;
+    float: left;
+}
+
+.member-icon p {
+    position: absolute;
+    opacity: 0.8;
+    color: white;
+    font-size: 40px;
+    width: 1000%;
+    top: 40px;
+    left: 150px;
+}
+
+.personal-wrapper {
+    background: black;
+    text-align: center;
+}
+
+.individual {
+    float: left;
+    width: 25%;
+}
+
+.personal-icon {
+    text-align: center;
+    position: relative;
+}
+
+.personal-icon p {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    top: 120px;
+}
+
+.txt-contents {
+    opacity: 0.5;
+    width: 70%;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+}
+
+.individual2 {
+    float: center;
+    width: 25%;
+}
+
+.personal-icon2 {
+    text-align: center;
+    position: relative;
+}
+
+.personal-icon2 p {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    bottom: 100px;
+}
+
+
+.woman2 {
+    position: relative;
+    width: 430px;
+    bottom: 240px;
+    left: 1150px;
+}
+
+.member-icon2 p {
+    opacity: 0.8;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    bottom: -2350px;
+    left: 500px;
+}
+
+.member-icon2 span {
+    color: yellow;
+}
+
+.form-wrapper {
+    height: 850px;
+    padding-top: 1px;
+    background-color: black;
+    background-image: url(https://us.123rf.com/450wm/dstarky/dstarky1704/dstarky170400037/75348859-%E7%A8%B2%E5%A6%BB%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%BE%E3%81%9F%E3%81%AF%E3%83%A2%E3%83%80%E3%83%B3%E3%81%AA%E3%83%95%E3%83%A9%E3%83%83%E3%83%88-%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%AE%E3%83%AD%E3%82%B4%E3%80%82web-%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%8A%E3%82%88%E3%81%B3%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E9%AB%98%E5%93%81%E8%B3%AA%E9%BB%92%E3%81%AE%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%B5%E3%83%B3%E3%83%80.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+    color: white;
+}
+
+
+.title {
+    opacity: 0.8;
+    font-size: 40px;
+    letter-spacing: 13px;
+}
+
+.title span {
+    color: yellow;
+}
+
+input {
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.form-container p {
+    opacity: 0.8;
+}
+
+.form-submit {
+    width: 150px;
+    margin-right: 5px;
+    background-color: rgb(255, 230, 0);
+}
+
+.form-submit:hover {
+    background-color: rgb(251, 255, 0);
+}
+
+footer {
+    background-color: rgb(102, 101, 101);
+    height: 70px;
+}
+
+.footer-icon {
+    position: relative;
+}
+
+.footer-icon p {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 12px;
+    margin: 10px;
+}
+
